@@ -1,0 +1,27 @@
+# Natural Language Processing
+langchain==0.0.191
+chromadb==0.4.8
+llama-cpp-python==0.1.66
+pdfminer.six==20221105
+InstructorEmbedding
+sentence-transformers
+faiss-cpu
+huggingface_hub
+transformers
+protobuf==3.20.0; sys_platform != 'darwin'
+protobuf==3.20.0; sys_platform == 'darwin' and platform_machine != 'arm64'
+protobuf==3.20.3; sys_platform == 'darwin' and platform_machine == 'arm64'
+auto-gptq==0.2.2
+docx2txt
+
+# Utilities
+urllib3==1.26.6
+accelerate
+bitsandbytes ; sys_platform != 'win32'
+bitsandbytes-windows ; sys_platform == 'win32'
+click
+flask
+requests
+
+# Excel File Manipulation
+openpyxl
